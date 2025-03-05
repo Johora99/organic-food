@@ -3,5 +3,13 @@
 @theme {
    --color-grayishGreen: #EDF2EE;
    --color-darkGreen:#2B572E;
+   --color-darkGray: #1A1A1A;
+   --color-lightGray: #808080;
+   --color-darkEmerald: #002603;
 }
 
+@layer components {
+  .navLink{
+    @apply list-none
+  }
+}
