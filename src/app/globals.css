@@ -9,10 +9,14 @@
    --color-timberwolfGreen: #DAE5DA;
    --color-pureGreen: #00B207;
    --color-brightOrange: #FF8A00;
+   --color-dimGray: #999999;
 }
 
 @layer components {
   .navLink{
     @apply list-none
+  }
+  .btn{
+    @apply text-base font-semibold text-white bg-pureGreen flex items-center gap-2 rounded-full py-2 px-5
   }
 }
