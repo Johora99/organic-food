@@ -6,6 +6,9 @@
    --color-darkGray: #1A1A1A;
    --color-lightGray: #808080;
    --color-darkEmerald: #002603;
+   --color-timberwolfGreen: #DAE5DA;
+   --color-pureGreen: #00B207;
+   --color-brightOrange: #FF8A00;
 }
 
 @layer components {

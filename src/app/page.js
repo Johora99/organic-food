@@ -1,7 +1,10 @@
+import Slider from "@/components/Slider/Slider";
 
 
 export default function Home() {
   return (
-    <h1></h1>
+   <section>
+    <Slider></Slider>
+   </section>
   );
 }
