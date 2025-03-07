@@ -1,0 +1,394 @@
+[
+    {
+      "name": "Organic Carrots",
+      "status": "In Stock",
+      "rating": 4.7,
+      "reviews": 25,
+      "sku": "923,485",
+      "original_price": 50.00,
+      "discounted_price": 40.00,
+      "discount_percentage": 20,
+      "brand": "GreenFarm",
+      "description": "Our Organic Carrots are freshly harvested from pesticide-free farms, ensuring the highest quality and nutritional value. These vibrant orange carrots are packed with beta-carotene, which converts to vitamin A in the body, promoting healthy vision and immune function. Perfect for adding a sweet and crunchy touch to soups, salads, stir-fries, or simply enjoying as a raw, healthy snack. Grown sustainably and certified organic, these carrots are a must-have for health-conscious individuals and families.",
+      "category": "Vegetables",
+      "category_products": "Featured",
+      "tags": ["Vegetable", "Organic", "Carrot", "Fresh"],
+      "quantity": 30,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/v6RDFbzT/Organic-Chantenay-Carrot.jpg",
+          "https://i.ibb.co.com/v4nXqf2b/organic-delivery-sydney-carrots-medium-500g-37691637858531.webp",
+          "https://i.ibb.co.com/JRvvfjXD/Peeled-Carrots-2048x.webp",
+          "https://i.ibb.co.com/6RXYbBXB/front-side-view-of-beautiful-orange-carrot-isolated-with-clipping-path-and-shadow-in-file-format-png.webp"
+        ]
+      },
+      "features": [
+        "High in Vitamin A",
+        "100% Organic",
+        "Fresh and Crunchy"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "20% Off",
+          "description": "Enjoy 20% off on fresh organic carrots!"
+        },
+        {
+          "icon": "icons/organic.svg",
+          "title": "100% Organic",
+          "description": "Certified organic carrots"
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Fresh Mango",
+      "status": "In Stock",
+      "rating": 4.8,
+      "reviews": 18,
+      "sku": "589,432",
+      "original_price": 80.00,
+      "discounted_price": 60.00,
+      "discount_percentage": 25,
+      "brand": "FreshFruits",
+      "description": "Indulge in the sweet, tropical flavor of our Fresh Mangoes, handpicked at the peak of ripeness to ensure maximum juiciness and flavor. These mangoes are rich in vitamins A and C, which support immune health and skin vitality. Whether you blend them into smoothies, add them to desserts, or enjoy them as a refreshing snack, these mangoes are a delicious and nutritious treat. Sourced from organic farms, they are free from harmful chemicals and bursting with natural sweetness.",
+      "category": "Fresh Fruit",
+      "category_products": "Featured",
+      "tags": ["Fruit", "Fresh", "Mango", "Organic"],
+      "quantity": 10,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/xS4jrChp/Image-1.png",
+          "https://i.ibb.co.com/Vcg004Lt/Mangos.jpg",
+          "https://i.ibb.co.com/5xnbJQt8/product-packshot-mango-558x600.jpg",
+          "https://i.ibb.co.com/ZpcCBgbT/Depositphotos-11142476-S-460x-2x.webp"
+        ]
+      },
+      "features": [
+        "Rich in Vitamin C",
+        "Perfect for smoothies or desserts",
+        "Naturally sweet and flavorful"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "25% Discount",
+          "description": "Get 25% off on fresh mangoes!"
+        },
+        {
+          "icon": "icons/organic.svg",
+          "title": "100% Organic",
+          "description": "100% organic mangoes"
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Salmon Fillets",
+      "status": "In Stock",
+      "rating": 4.6,
+      "reviews": 10,
+      "sku": "758,221",
+      "original_price": 300.00,
+      "discounted_price": 220.00,
+      "discount_percentage": 26,
+      "brand": "SeaDelight",
+      "description": "Our Salmon Fillets are sourced from the pristine waters of the North Atlantic, ensuring the highest quality and freshness. Rich in omega-3 fatty acids, these fillets support heart health, brain function, and overall well-being. Perfect for grilling, baking, or poaching, the tender and flavorful salmon is a versatile addition to any meal. Sustainably sourced and carefully handled, these fillets are a premium choice for seafood lovers who value both taste and nutrition.",
+      "category": "Fish",
+      "category_products": "Featured",
+      "tags": ["Fish", "Fresh", "Salmon", "Healthy"],
+      "quantity": 8,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/847kjGvJ/Salmon-png.webp",
+          "https://i.ibb.co.com/vCQ4snRt/salmon-fillet-skin-on.webp",
+          "https://i.ibb.co.com/YF1HsV23/Fresh-Norwegian-Salmon-Fillets-Skin-on-1.jpg",
+          "https://i.ibb.co.com/LzGqJ6rY/51-VYOGVLLs-L.jpg"
+        ]
+      },
+      "features": [
+        "Rich in Omega-3 fatty acids",
+        "Perfect for grilling, baking, or poaching",
+        "Sustainably sourced"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "26% Discount",
+          "description": "Enjoy the taste of fresh salmon at a discounted price."
+        },
+        {
+          "icon": "icons/fresh.svg",
+          "title": "Freshly Sourced",
+          "description": "Freshly delivered from the sea"
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Beef Steak",
+      "status": "In Stock",
+      "rating": 4.7,
+      "reviews": 12,
+      "sku": "213,567",
+      "original_price": 500.00,
+      "discounted_price": 400.00,
+      "discount_percentage": 20,
+      "brand": "PremiumMeats",
+      "description": "Savor the rich, robust flavor of our Premium Beef Steak, carefully selected and aged to perfection. Each steak is marbled with fine fat, ensuring a tender and juicy texture when cooked. Ideal for grilling, pan-searing, or broiling, this steak is a protein-packed meal that satisfies even the most discerning palates. Sourced from grass-fed cattle, our beef is not only delicious but also rich in iron and essential nutrients, making it a wholesome choice for meat lovers.",
+      "category": "Meat",
+      "category_products": "Featured",
+      "tags": ["Meat", "Beef", "Steak", "Fresh"],
+      "quantity": 5,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/gFL2Bgjh/T-Bone-Steak.jpg",
+          "https://i.ibb.co.com/XfLRXXJ9/T-bone-b8216e08-2abe-4f7a-b663-ce10168a480a.webp",
+          "https://i.ibb.co.com/0RsMN6PJ/raw-t-bone-steak-png.webp",
+          "https://i.ibb.co.com/7JWxh6Dd/DSC-6412-1e760b7a-fd88-4801-927f-b6ced11b2f40-1024x1024.webp"
+        ]
+      },
+      "features": [
+        "High-quality marbled beef",
+        "Ideal for grilling or pan-frying",
+        "Rich in protein and iron"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "20% Discount",
+          "description": "Save 20% on premium beef steaks."
+        },
+        {
+          "icon": "icons/fresh.svg",
+          "title": "Freshly Cut",
+          "description": "Freshly cut steaks, ready to cook."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Mineral Water",
+      "status": "In Stock",
+      "rating": 4.9,
+      "reviews": 30,
+      "sku": "340,229",
+      "original_price": 20.00,
+      "discounted_price": 15.00,
+      "discount_percentage": 25,
+      "brand": "PureWater",
+      "description": "Stay hydrated with our Pure Mineral Water, sourced from natural springs and packed with essential minerals like calcium, magnesium, and potassium. This crisp and refreshing water is perfect for quenching your thirst, whether at home, work, or on the go. Free from additives and artificial flavors, it’s a healthy and eco-friendly choice for daily hydration. Enjoy the pure taste of nature in every sip!",
+      "category": "Water and Drinks",
+      "category_products": "Best Seller",
+      "tags": ["Water", "Mineral", "Hydration", "Refreshment"],
+      "quantity": 50,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/vx08q9YQ/mum-mineral-water-330ml.jpg",
+          "https://i.ibb.co.com/Gf3ch1Ny/medium-1723203908.jpg",
+          "https://i.ibb.co.com/g0ZJ7Qh/880196268615.webp",
+          "https://i.ibb.co.com/5XcybzLV/1635918767-Mum-Drinking-Water-2.webp"
+        ]
+      },
+      "features": [
+        "Pure mineral water",
+        "Refreshing and hydrating",
+        "Perfect for everyday consumption"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "25% Discount",
+          "description": "Get a refreshing discount on mineral water."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Crispy Chips",
+      "status": "In Stock",
+      "rating": 4.4,
+      "reviews": 25,
+      "sku": "124,343",
+      "original_price": 30.00,
+      "discounted_price": 20.00,
+      "discount_percentage": 33,
+      "brand": "Lay's",
+      "description": "Satisfy your snack cravings with our Crispy Chips, made from high-quality potatoes and seasoned to perfection. Each chip is light, crunchy, and bursting with flavor, making it the ideal snack for movie nights, parties, or anytime you need a quick bite. With a perfect balance of saltiness and crunch, these chips are a crowd-pleaser for all ages. Grab a bag and enjoy the irresistible taste!",
+      "category": "Snacks",
+      "category_products": "Best Seller",
+      "tags": ["Snack", "Chips", "Crispy", "Potato"],
+      "quantity": 15,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/2T8tvn8/81-TLFU5-Yj6-L-SL1500.jpg",
+          "https://i.ibb.co.com/p66pcpRb/GRR22000480.jpg",
+          "https://i.ibb.co.com/nqrf16hF/61mq-q7hmcl-sx522.jpg",
+          "https://i.ibb.co.com/rRQL5KB1/6c000d95-7330-4e60-a56d-5d94db1bfde8.webp"
+        ]
+      },
+      "features": [
+        "Crunchy, salty flavor",
+        "Made from high-quality potatoes",
+        "Perfect snack for any occasion"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "33% Discount",
+          "description": "Enjoy a crispy discount on chips."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Orange Juice",
+      "status": "In Stock",
+      "rating": 4.8,
+      "reviews": 16,
+      "sku": "213,980",
+      "original_price": 50.00,
+      "discounted_price": 35.00,
+      "discount_percentage": 30,
+      "brand": "JuicyDelight",
+      "description": "Start your day with a burst of sunshine in every glass of our Freshly Squeezed Orange Juice. Made from ripe, handpicked oranges, this juice is rich in vitamin C, which boosts your immune system and promotes healthy skin. With no added sugars or preservatives, it’s a natural and refreshing way to stay hydrated and energized. Perfect for breakfast, brunch, or as a midday pick-me-up, this juice is a delicious way to enjoy the goodness of citrus.",
+      "category": "Water and Drinks",
+      "category_products": "Best Seller",
+      "tags": ["Juice", "Orange", "Citrus", "Vitamin C"],
+      "quantity": 12,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/bwFjHMf/29e840df-1cca-4c80-99c5-b799f879c6c9-360.jpg",
+          "https://i.ibb.co.com/Kz7ZyZtC/Juc218-1-600x600-crop-center.webp",
+          "https://i.ibb.co.com/nN1cDRFW/Mango-Nectar.jpg",
+          "https://i.ibb.co.com/HTBB6cy0/Juc218-1-700x.webp"
+        ]
+      },
+      "features": [
+        "Rich in Vitamin C",
+        "Freshly squeezed",
+        "Perfect for breakfast or a snack"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "30% Discount",
+          "description": "Get fresh orange juice at 30% off."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Ladies Finger",
+      "status": "In Stock",
+      "rating": 4.5,
+      "reviews": 12,
+      "sku": "456,789",
+      "original_price": 100.00,
+      "discounted_price": 80.00,
+      "discount_percentage": 20,
+      "brand": "FreshHarvest",
+      "description": "Our Organic Ladies Finger, also known as okra, is a nutrient-rich vegetable that’s perfect for a variety of healthy dishes. Packed with fiber, vitamins, and antioxidants, it supports digestion, heart health, and overall wellness. Whether you sauté, grill, or add it to stews and curries, this versatile vegetable adds a unique texture and flavor to your meals. Grown without synthetic pesticides or fertilizers, it’s a fresh and wholesome choice for your kitchen.",
+      "category": "Vegetables",
+      "category_products": "Best Seller",
+      "tags": ["Vegetables", "Okra", "Healthy", "Organic"],
+      "quantity": 10,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/V0s7MJsZ/Image-2.png",
+          "https://i.ibb.co.com/dwD6Y0G9/Ladies-Fingers-Okra-1.jpg",
+          "https://i.ibb.co.com/Zzz7q0vQ/Ladys-Finger-Okra.jpg",
+          "https://i.ibb.co.com/JwcYFzHD/istockphoto-152964463-612x612.jpg"
+        ]
+      },
+      "features": [
+        "Rich in fiber and vitamins",
+        "Fresh and organic",
+        "Ideal for various dishes"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "20% Discount",
+          "description": "Save on fresh and healthy ladies finger."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Eggplant",
+      "status": "In Stock",
+      "rating": 4.7,
+      "reviews": 18,
+      "sku": "123,456",
+      "original_price": 120.00,
+      "discounted_price": 90.00,
+      "discount_percentage": 25,
+      "brand": "FreshHarvest",
+      "description": "Our Organic Eggplants are a versatile and nutritious addition to your meals. Rich in fiber, antioxidants, and essential vitamins, they support heart health and digestion. Whether you roast, grill, or use them in stews and curries, these eggplants add a rich, meaty texture and absorb flavors beautifully. Grown sustainably and free from harmful chemicals, they are a fresh and healthy choice for your culinary creations.",
+      "category": "Vegetables",
+      "category_products": "Best Seller",
+      "tags": ["Vegetables", "Eggplant", "Brinjal", "Organic", "Healthy"],
+      "quantity": 8,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/67vK1GsH/Product-Image.png",
+          "https://i.ibb.co.com/yBdzR7LL/images.jpg",
+          "https://i.ibb.co.com/1YyQygzN/icon-512-512-false-af233f830bdf919262d5b279ca22801e.png",
+          "https://i.ibb.co.com/bRKnMPT8/Egg-Plant-1.jpg"
+        ]
+      },
+      "features": [
+        "Rich in fiber and antioxidants",
+        "Fresh and organic",
+        "Versatile for cooking"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "25% Discount",
+          "description": "Get fresh eggplants at a discounted price."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    },
+    {
+      "name": "Coconut Water",
+      "status": "In Stock",
+      "rating": 4.7,
+      "reviews": 19,
+      "sku": "982,312",
+      "original_price": 30.00,
+      "discounted_price": 20.00,
+      "discount_percentage": 33,
+      "brand": "CocoFresh",
+      "description": "Rehydrate naturally with our refreshing Coconut Water, packed with electrolytes like potassium, magnesium, and calcium. Sourced from young, green coconuts, this drink is a perfect way to replenish your body after workouts, outdoor activities, or simply on a hot day. With no added sugars or preservatives, it’s a pure and healthy alternative to sugary drinks. Enjoy the light, sweet taste of tropical coconuts in every sip!",
+      "category": "Water and Drinks",
+      "category_products": "Best Seller",
+      "tags": ["Water", "Coconut", "Hydration", "Electrolytes"],
+      "quantity": 30,
+      "images": {
+        "main": [
+          "https://i.ibb.co.com/7tfTdkmQ/cocofresh-lemon-blend-500-ml.jpg",
+          "https://i.ibb.co.com/q3KZGBwV/cocofresh-glass-bottle-200-ml.jpg",
+          "https://i.ibb.co.com/5xxRQLxx/cocofresh-glass-bottle-500-ml.jpg",
+          "https://i.ibb.co.com/PzYMLHqf/cocofresh-glass-bottle-200-ml-1.jpg"
+        ]
+      },
+      "features": [
+        "Natural electrolytes",
+        "Perfect for hydration after workouts",
+        "Refreshing and nutritious"
+      ],
+      "highlights": [
+        {
+          "icon": "icons/discount.svg",
+          "title": "33% Discount",
+          "description": "Save 33% on refreshing coconut water."
+        }
+      ],
+      "video": "https://i.ibb.co.com/cXkvkgYT/Video.png"
+    }
+  
+
+]
