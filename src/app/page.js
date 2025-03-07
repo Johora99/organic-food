@@ -13,10 +13,9 @@ export default function Home() {
    <section className="w-full bg-white relative">
     <Image src={bgImg} alt="" className="absolute bottom-0 left-0"/>
      <AboutSupport></AboutSupport>
-   </section>
-   <section>
     <FeatureProducts></FeatureProducts>
    </section>
+  
   </>
   );
 }

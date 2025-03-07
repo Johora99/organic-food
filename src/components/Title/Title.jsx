@@ -4,9 +4,9 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 
 export default function Title({title}) {
   return (
-    <div className='flex items-center justify-between'>
-      <h2>{title}</h2>
-      <Link href={''}>View All <IoIosArrowRoundForward className='text-2xl'/></Link>
+    <div className='flex items-center justify-between my-10'>
+      <h2 className='text-darkGray font-semibold text-4xl'>{title}</h2>
+      <Link href={''} className='flex items-center gap-2 text-pureGreen font-medium text-base'>View All <IoIosArrowRoundForward className='text-2xl'/></Link>
     </div>
   )
 }

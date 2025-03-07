@@ -3,6 +3,7 @@
 @theme {
    --color-grayishGreen: #EDF2EE;
    --color-darkGreen:#2B572E;
+   --color-darkGreen2:#2C742F;
    --color-darkGray: #1A1A1A;
    --color-lightGray: #808080;
    --color-darkEmerald: #002603;
@@ -10,6 +11,9 @@
    --color-pureGreen: #00B207;
    --color-brightOrange: #FF8A00;
    --color-dimGray: #999999;
+   --color-lighterGray: #E6E6E6;
+   --color-lightestGray: #F2F2F2;
+   --color-darkGray2: #4D4D4D;
 }
 
 @layer components {
