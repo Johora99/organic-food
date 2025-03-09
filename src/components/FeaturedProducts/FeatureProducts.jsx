@@ -4,7 +4,7 @@ import FeaturedProductCard from './FeaturedProductCard';
 import Title from '../Title/Title';
 
 export default async function FeatureProducts() {
-  const FeatureProducts = await dbConnect('products').find().sort({createdAt:-1}).limit(4).toArray();
+  const FeatureProducts = await dbConnect('products').find({category_products : 'Featured'}).sort({createdAt:-1}).limit(4).toArray();
   return (
     <div className='container w-11/12 mx-auto'>
       <div>
