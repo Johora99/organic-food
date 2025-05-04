@@ -8,7 +8,7 @@ export default function FeaturedProductCard({product}) {
   const {name,original_price,discounted_price,images,rating} = product;
   const main_image = images.main[0]
   return (
-    <div className='border-[1px] border-lighterGray p-5 rounded-lg hover:border-darkGreen2 hover:shadow-[0px_0px_12px_0px_#20B526] shadow-sm transition-all duration-300 relative group '>
+    <div className='cardBorder group'>
          <div className=' absolute top-0 right-0 p-5 hidden group-hover:block gap-2 '>
           <div className='relative w-12 h-12 border-[1px] border-lightestGray  rounded-full bg-white hover:text-white hover:bg-pureGreen mb-2'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl  size-6">

@@ -23,4 +23,7 @@
   .btn{
     @apply text-base font-semibold text-white bg-pureGreen flex items-center gap-2 rounded-full py-2 px-5
   }
+  .cardBorder{
+    @apply border-[1px] border-lighterGray p-5 rounded-lg hover:border-darkGreen2 hover:shadow-[0px_0px_12px_0px_#20B526] shadow-sm transition-all duration-300 relative  
+  }
 }

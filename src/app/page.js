@@ -4,6 +4,7 @@ import bgImg from '../../public/bg-2.png'
 import Image from "next/image";
 import FeatureProducts from "@/components/FeaturedProducts/FeatureProducts";
 import Categories from "@/components/Categories/Categories";
+import WhyUs from "@/components/WhyUs/WhyUs";
 
 export default function Home() {
   return (
@@ -11,13 +12,16 @@ export default function Home() {
    <section>
     <Slider></Slider>
    </section>
-   <section className="w-full bg-white relative">
+   <section className="w-full bg-white relative mb-10">
     <Image src={bgImg} alt="" className="absolute bottom-0 left-0"/>
      <AboutSupport></AboutSupport>
     <FeatureProducts></FeatureProducts>
    </section>
    <section>
      <Categories></Categories>
+   </section>
+   <section>
+    <WhyUs></WhyUs>
    </section>
   
   </>
