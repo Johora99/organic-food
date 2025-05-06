@@ -5,6 +5,7 @@ import Image from "next/image";
 import FeatureProducts from "@/components/FeaturedProducts/FeatureProducts";
 import Categories from "@/components/Categories/Categories";
 import WhyUs from "@/components/WhyUs/WhyUs";
+import SuccessRatio from "@/components/SuccessRatio/SuccessRatio";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
    </section>
    <section>
     <WhyUs></WhyUs>
+   </section>
+   <section>
+    <SuccessRatio></SuccessRatio>
    </section>
   
   </>

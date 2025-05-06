@@ -14,6 +14,7 @@
    --color-lighterGray: #E6E6E6;
    --color-lightestGray: #F2F2F2;
    --color-darkGray2: #4D4D4D;
+   --color-lightbg: rgba(0,178,7, 0.1);
 }
 
 @layer components {
