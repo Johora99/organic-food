@@ -7,7 +7,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 import CountDown from '../CountDouwn/CountDown'
 export default function SalesAdd() {
   return (
-    <div className='w-full relative my-20'>
+    <div className='w-full relative mt-20'>
       <Image src={bgImg} alt='' className='absolute top-0 left-0 w-full h-full z-[-1]'/>
       <div className='container w-11/12 mx-auto'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
