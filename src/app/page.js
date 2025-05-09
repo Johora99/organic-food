@@ -8,6 +8,7 @@ import WhyUs from "@/components/WhyUs/WhyUs";
 import SuccessRatio from "@/components/SuccessRatio/SuccessRatio";
 import SalesAdd from "@/components/SalesAdd/SalesAdd";
 import BestSellerProducts from "@/components/BestSellerProducts/BestSellerProducts";
+import Blog from "@/components/Blog/Blog";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
    </section>
    <section>
     <BestSellerProducts></BestSellerProducts>
+   </section>
+   <section>
+    <Blog></Blog>
    </section>
   
   </>
