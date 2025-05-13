@@ -33,13 +33,7 @@
   margin: 0 -10px;
 }
 
-.slick-prev {
-  left: -30px;
-}
 
-.slick-next {
-  right: -30px;
-}
 
 @font-face {
   font-family: 'MyFont';

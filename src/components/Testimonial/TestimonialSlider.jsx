@@ -1,27 +1,10 @@
 'use client'
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import vegPic from '../../../public/Vegetable.png';
-import fruit from '../../../public/fruits 1.png';
-import fish from '../../../public/Group.png';
-import meat from '../../../public/meat 1.png';
-import drinks from '../../../public/soft-drink 1.png';
-import snacks from '../../../public/snacks 1.png';
 import Image from "next/image";
-import "./category.css"
-function CategoriesSlider({allCategories}) {
-   const categoryImages = {
-    'Vegetables': vegPic,
-    'Fresh Fruit': fruit,
-    'Fish': fish,
-    'Meat': meat,
-    'Water and Drinks': drinks,
-    'Snacks': snacks,
-    // Add more mappings as needed
-  };
- const settings = {
+import Slider from "../Slider/Slider";
+
+export default function TestimonialSlider({testimonial}) {
+  const settings = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -54,9 +37,9 @@ function CategoriesSlider({allCategories}) {
       <div className="w-full">
         <Slider {...settings}>
        {
-        allCategories.map(category => <div className="px-5 "> 
+        testimonial.map(category => <div className="px-5 "> 
             <div className='cardBorder group text-center'>
-            <Image  src={categoryImages[category.name]} alt="" className="mx-auto"></Image>
+            <Image  src={testimonial.image} alt="" className="mx-auto"></Image>
               <p className="text-base font-medium text-darkGray my-2 group-hover:text-darkGreen2">{category.name}</p>
               <p className="text-sm font-normal text-lightGray">{category.totalProduct} Products</p>
             </div>
@@ -66,7 +49,6 @@ function CategoriesSlider({allCategories}) {
         </Slider>
       </div>
     </div>
-  );
+  )
 }
 
-export default CategoriesSlider;

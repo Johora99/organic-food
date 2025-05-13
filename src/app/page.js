@@ -9,6 +9,7 @@ import SuccessRatio from "@/components/SuccessRatio/SuccessRatio";
 import SalesAdd from "@/components/SalesAdd/SalesAdd";
 import BestSellerProducts from "@/components/BestSellerProducts/BestSellerProducts";
 import Blog from "@/components/Blog/Blog";
+import Testimonial from "@/components/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
    </section>
    <section>
     <Blog></Blog>
+   </section>
+   <section>
+    <Testimonial></Testimonial>
    </section>
   
   </>
