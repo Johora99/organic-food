@@ -1,0 +1,10 @@
+.testimonial-slider .slick-prev {
+  left: 95%;
+  top: -50px !important;
+  right: -30px !important;
+}
+
+.testimonial-slider .slick-next {
+  right: -10px;
+  top: -50px !important;
+}
