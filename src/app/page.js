@@ -10,6 +10,8 @@ import SalesAdd from "@/components/SalesAdd/SalesAdd";
 import BestSellerProducts from "@/components/BestSellerProducts/BestSellerProducts";
 import Blog from "@/components/Blog/Blog";
 import Testimonial from "@/components/Testimonial/Testimonial";
+import Contact from "@/components/Contact/Contact";
+import Sponsor from "@/components/Sponsor/Sponsor";
 
 export default function Home() {
   return (
@@ -42,6 +44,12 @@ export default function Home() {
    </section>
    <section>
     <Testimonial></Testimonial>
+   </section>
+   <section>
+    <Sponsor></Sponsor>
+   </section>
+   <section>
+    <Contact></Contact>
    </section>
   
   </>

@@ -15,7 +15,8 @@
    --color-lightestGray: #F2F2F2;
    --color-darkGray2: #4D4D4D;
    --color-lightbg: rgba(0,178,7, 0.1);
-   --color-orange: #FF8A00
+   --color-orange: #FF8A00;
+   --color-limeGreen: #20B526; 
 }
 
 @layer components {

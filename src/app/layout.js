@@ -3,6 +3,7 @@ import "./globals.css";
 import "./custom.css"
 import UpperNav from "@/components/UpperNav/UpperNav";
 import LowerNav from "@/components/LowerNav/LowerNav";
+import Footer from "@/components/Footer/Footer";
 
 
 const poppins = Poppins({
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <UpperNav></UpperNav>
         <LowerNav></LowerNav>
           {children}
+          <Footer></Footer>
        </main>
       </body>
     </html>
