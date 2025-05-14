@@ -41,7 +41,7 @@ export default function Contact() {
         <div>
         <p className='font-medium text-sm text-darkGray mb-2'>Subscribe Newsletter</p>
           <div className='border-[1px] border-limeGreen rounded-full pl-5 flex items-center justify-between'>
-            <input type="email" name="" id="" placeholder='Your email address'/>
+            <input type="email" name="" id="" placeholder='Your email address' className='focus:outline-none' />
             <button className='btn'>Subscribe</button>
           </div>
         </div>

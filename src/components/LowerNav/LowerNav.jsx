@@ -10,7 +10,7 @@ export default function LowerNav() {
      return (
       <>
       <li><Link href={''} className="navLink">Home</Link></li>
-      <li><Link href={''}>Shop</Link></li>
+      <li><Link href={'/shop'}>Shop</Link></li>
       <li><Link href={''}>Pages</Link></li>
       <li><Link href={''}>Blog</Link></li>
       <li><Link href={''}>About Us</Link></li>
