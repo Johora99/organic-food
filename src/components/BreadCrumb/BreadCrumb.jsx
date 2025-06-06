@@ -7,13 +7,13 @@ import { IoIosArrowForward } from 'react-icons/io'
 import Link from 'next/link'
 export default function BreadCrumb() {
   const navLinks = [
-    { name: 'Fresh Fruit', href: '/freshFruit' },
+    { name: 'Fresh Fruit', href: '/shop/fresh-fruits' },
     { name: 'Vegetables', href: '/vegetables' },
     { name: 'Cooking', href: '/cooking' },
     { name: 'Snacks', href: '/snacks' },
     { name: 'Beverages', href: '/beverages' },
-    { name: 'Beauty & Health', href: '/beautyHealth' },
-    { name: 'Bread & Bakery', href: '/breadBakery' },
+    { name: 'Beauty & Health', href: '/beauty-Health' },
+    { name: 'Bread & Bakery', href: '/bread-Bakery' },
   ]
   return (
     <div className="w-full">
