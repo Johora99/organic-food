@@ -27,10 +27,10 @@ export default async function AllCategories() {
     className="w-4 h-4 rounded-full border-2 border-green-600 checked:border-green-600 accent-green-600 focus:ring-0 focus:outline-none"
   />
 
-            <label className='text-sm text-darkGray'>{item.name} ({item.totalProduct})</label>
+            <label className='text-sm text-darkGray'>{item.name} <span className='text-sm text-lightGray'>({item.totalProduct})</span></label>
           </div>
         ))}
-        <div className='w-full border-b-[1px] border-lightGray my-2'></div>
+        <div className='w-full border-b-[1px] border-lighterGray my-3'></div>
       </div>
     </div>
   )

@@ -5,10 +5,11 @@ import bgImg from '../../../public/Product (1).png'
 import Title from '../Title/Title';
 import FeaturedProductCard from '../FeaturedProducts/FeaturedProductCard';
 import axios from 'axios';
+
 export default async function BestSellerProducts() {
    try{
-    const res = await axios.get('http://localhost:3000/api/products')
-    const bestSellingProducts = res.data.filter(item => item.category_products === 'Best Seller').slice(0, 7);
+    const res = await axios.get(`${process.env.NEXT_PUBLIC_API}/products`)
+    const bestSellingProducts = res.data.filter(item => item.category_products === 'Best Seller').slice(0, 4);
     return (
       <div className='w-full relative'>
     <Image src={bgImg} alt='' className='absolute top-0 left-0 w-full h-full z-[-1]'/>    
@@ -28,15 +29,19 @@ export default async function BestSellerProducts() {
       </div>
     )
    }  catch(error){
-          <div className='w-full relative'>
-    <Image src={bgImg} alt='' className='absolute top-0 left-0 w-full h-full z-[-1]'/>    
-       <div className='container w-11/12 mx-auto relative z-50'>
-        <div>
-          <Title title={'Best Seller Products'}></Title>
-          <p className="text-center py-10 text-red-500">Error loading products. Please try again later.</p>
+        return (
+      <div className='w-full relative'>
+        <Image src={bgImg} alt='' className='absolute top-0 left-0 w-full h-full z-[-1]' />
+        <div className='container w-11/12 mx-auto relative z-50'>
+          <div>
+            <Title title={'Best Seller Products'} />
+            <p className='text-center py-10 text-red-500'>
+              Error loading products. Please try again later.
+            </p>
+          </div>
         </div>
-      </div>  
       </div>
+    );
 
    }
 }

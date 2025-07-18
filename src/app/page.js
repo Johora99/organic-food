@@ -12,6 +12,7 @@ import Blog from "@/components/Blog/Blog";
 import Testimonial from "@/components/Testimonial/Testimonial";
 import Contact from "@/components/Contact/Contact";
 import Sponsor from "@/components/Sponsor/Sponsor";
+import PromotionalItems from "@/components/PromotionalItems/PromotionalItems";
 
 export default function Home() {
   return (
@@ -38,6 +39,9 @@ export default function Home() {
    </section>
    <section>
     <BestSellerProducts></BestSellerProducts>
+   </section>
+   <section>
+    <PromotionalItems></PromotionalItems>
    </section>
    <section>
     <Blog></Blog>
