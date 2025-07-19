@@ -7,7 +7,7 @@ import location from '../../../public/Map Pin (1).png'
 import Image from 'next/image'
 export default function Contact() {
   return (
-    <div className='w-full bg-white pb-10'> 
+    <div className='w-full bg-white pb-30'> 
   <div className='container w-11/12 mx-auto'>
      <div className='grid grid-cols-1 lg:grid-cols-4 gap-5'>
        <div className='border-[1px] border-limeGreen rounded-lg p-5 col-span-1'>

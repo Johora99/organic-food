@@ -8,7 +8,7 @@ import img6 from '../../../public/Vector (1).png'
 import Image from 'next/image'
 export default function Sponsor() {
   return (
-    <div className='container w-11/12 mx-auto mb-10'>
+    <div className='container w-11/12 mx-auto mb-10 py-10'>
     <div className='flex items-center justify-between'>
       <Image src={img1} alt=''/>
       <Image src={img2} alt=''/>

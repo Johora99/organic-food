@@ -9,7 +9,7 @@ export default function PromotionalItemsCard({item}) {
   return (
     <div className='cardBorder group'>
       <div className='flex items-center gap-5'>
-      <img src={main_image} alt="" className='w-16'/>
+      <img src={main_image} alt="" className='h-24 w-20 '/>
       <div>
          <p className='text-sm text-darkGray2 group-hover:text-darkGreen2'>{name}</p>
         <div className='group-hover:hidden'>
