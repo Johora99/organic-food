@@ -5,7 +5,7 @@ import axios from 'axios';
 
 export default async function FeatureProducts() {
   try {
-    const response = await axios.get(`${process.env.NEXT_PUBLIC_API}/products`);
+    const response = await axios.get(`http://localhost:3000/api/products`);
     const featuredProducts = response.data.filter(item => 
       item.category_products === 'Featured' || []
     ).slice(0, 4);
