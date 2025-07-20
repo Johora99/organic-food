@@ -5,7 +5,7 @@ import bgImg from '../../../public/Testimonials.png'
 import TestimonialSlider from './TestimonialSlider';
 export default async function Testimonial() {
   const testimonialData = async ()=>{
-    const res = await axios.get('http://localhost:3000/testimonial.json')
+    const res = await axios.get('/testimonial.json')
     const data = await res.data;
     return data;
   }

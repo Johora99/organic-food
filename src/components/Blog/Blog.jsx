@@ -5,7 +5,7 @@ import axios from 'axios'
 import BlogCard from './BlogCard'
 export default async function Blog() {
   const blogsData = async ()=>{
-    const res = await axios.get('http://localhost:3000/blog.json')
+    const res = await axios.get('/blog.json')
     const data = await res.data;
     return data;
   }
