@@ -4,7 +4,7 @@ import PromotionalItemsCard from './PromotionalItemsCard';
 
 export default async function BestSeller() {
   try {
-    const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/products`);
+    const res = await axios.get(`${process.env.API_BASE_URL}/api/products`);
     
     const bestSellingProducts = res.data
       .filter(item => item.category_products === 'Best Seller')
