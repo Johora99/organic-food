@@ -43,12 +43,12 @@ export default function Home() {
    <section>
     <PromotionalItems></PromotionalItems>
    </section>
-   {/* <section>
+   <section>
     <Blog></Blog>
    </section>
    <section>
     <Testimonial></Testimonial>
-   </section> */}
+   </section>
    <section>
     <Sponsor></Sponsor>
    </section>
