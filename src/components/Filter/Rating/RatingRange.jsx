@@ -12,8 +12,9 @@ const ratings = [
 
   return (
     <div>
-      <h3 className='mb-3 text-xl font-medium text-darkGray'>Rating</h3>
-      <div className='flex flex-col gap-2'>
+      <h3 className='mb-4 text-xl font-medium text-darkGray'>Rating</h3>
+    <div className='mb-5'>
+        <div className='flex flex-col gap-2'>
       {
         ratings.map(rating =>  <div className='flex items-center gap-2'>
    <input
@@ -35,6 +36,8 @@ const ratings = [
       }
         
       </div>
+    </div>
+        <div className='w-full border-b-[1px] border-lighterGray my-4'></div>
     </div>
   )
 }

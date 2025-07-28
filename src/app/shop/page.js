@@ -5,6 +5,7 @@ import Image from 'next/image'
 import AllCategories from '@/components/Filter/AllCategories/AllCategories'
 import PriceRange from '@/components/Filter/PriceRange/PriceRange'
 import RatingRange from '@/components/Filter/Rating/RatingRange'
+import PopularTags from '@/components/Filter/PolularTag/PopularTags'
 export default function page() {
   return (
     <div className='w-full bg-white'>
@@ -17,6 +18,7 @@ export default function page() {
                       <AllCategories/>
                       <PriceRange />
                       <RatingRange />
+                      <PopularTags />
                     </div>
               </div>
             </div>
