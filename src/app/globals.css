@@ -17,6 +17,7 @@
    --color-lightbg: rgba(0,178,7, 0.1);
    --color-orange: #FF8A00;
    --color-limeGreen: #20B526; 
+   --color-lightGray2: #CCCCCC;
 }
 
 @layer components {

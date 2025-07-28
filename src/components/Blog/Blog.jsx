@@ -5,7 +5,7 @@ import axios from 'axios'
 import BlogCard from './BlogCard'
 export default async function Blog() {
   const blogsData = async ()=>{
-    const res = await axios.get('https://organic-food-tbmk.vercel.app/blog.json')
+    const res = await axios.get(`${process.env.API_BASE_URL}/blog.json`)
     const data = await res.data;
     return data;
   }

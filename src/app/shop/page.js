@@ -4,6 +4,7 @@ import filter from '../../../public/Filter 24px.png'
 import Image from 'next/image'
 import AllCategories from '@/components/Filter/AllCategories/AllCategories'
 import PriceRange from '@/components/Filter/PriceRange/PriceRange'
+import RatingRange from '@/components/Filter/Rating/RatingRange'
 export default function page() {
   return (
     <div className='w-full bg-white'>
@@ -15,6 +16,7 @@ export default function page() {
                     <div>
                       <AllCategories/>
                       <PriceRange />
+                      <RatingRange />
                     </div>
               </div>
             </div>

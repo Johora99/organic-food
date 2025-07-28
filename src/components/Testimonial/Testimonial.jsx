@@ -5,7 +5,7 @@ import bgImg from '../../../public/Testimonials.png'
 import TestimonialSlider from './TestimonialSlider';
 export default async function Testimonial() {
   const testimonialData = async ()=>{
-    const res = await axios.get('https://organic-food-tbmk.vercel.app/testimonial.json')
+    const res = await axios.get(`${process.env.API_BASE_URL}/testimonial.json`)
     const data = await res.data;
     return data;
   }
